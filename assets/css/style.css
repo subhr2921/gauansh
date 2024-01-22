@@ -23920,31 +23920,32 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 1699px) {
     .header-layout5 .header-logo {
-        padding-left: 30px
+        padding-left: 600px
     }
 }
 
 @media (max-width: 1399px) {
     .header-layout5 .header-logo {
-        padding-left: 50px
+        padding-left: 60px
     }
 }
 
 @media (max-width: 1299px) {
     .header-layout5 .header-logo {
-        padding-left: 30px
+        padding-left: 60px
     }
 }
 
 @media (max-width: 1199px) {
     .header-layout5 .header-logo {
-        padding-left: 0
+        padding-left: 0px
     }
 }
 
 @media (max-width: 767px) {
     .header-layout5 .header-logo {
-        margin: 0
+        margin: 0;
+        padding-left: 0px
     }
 }
 
@@ -24316,7 +24317,7 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 991px) {
     .hero-style5 {
-        padding: 100px 0 50px 0;
+        padding: 250px 0 50px 0;
         display: block;
         margin: auto;
         max-width: 100%;
@@ -24326,13 +24327,13 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 767px) {
     .hero-style5 {
-        padding: 100px 0 80px 0
+        padding: 230px 0 80px 0
     }
 }
 
 @media (max-width: 575px) {
     .hero-style5 {
-        padding: 50px 0 40px 0
+        padding: 170px 0 40px 0
     }
 }
 
@@ -24919,4 +24920,28 @@ span.select2-selection.select2-selection--single:focus {
 .blog-image {
     width: 90px !important;
     height: 100px !important;
+}
+
+@media (min-width: 768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 100% !important;
+        padding: 0px 60px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 100% !important;
+        padding: 0px 40px;
+    }
+}
+
+.discover {
+    max-height: 265px !important;
+    min-height: 265px !important;
 }
